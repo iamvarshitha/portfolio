@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Varshitha | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Signature font -->
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+  <!-- Styles & JS -->
+  <link rel="stylesheet" href="1.css" />
+  <script src="main.js" defer></script>
+</head>
+
+<body>
+  <div class="cursor-dot"></div>
+  <div class="cursor-outline"></div>
+
+  <!-- SITE HEADER + NAVIGATION -->
+  <header class="site-header">
+    <nav class="nav">
+      <div class="nav-left">
+        <a href="#hero" class="nav-logo">Varshitha</a>
+      </div>
+      <div class="nav-right">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="126013032.pdf" target="_blank" rel="noopener">Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- HERO SECTION (TOP) -->
+  <section id="hero" class="hero">
+    <div class="hero-inner">
+      <div class="hero-text">
+        <div class="signature-container">
+          <svg viewBox="0 0 500 140" class="signature-svg">
+          <!-- smooth underline flourish -->
+            <path class="sig-scribble"
+            d="
+            M40 95
+            C 110 140, 170 140, 230 95
+            S 340 50, 430 95
+            " />
+
+            <!-- name sitting above the line -->
+            <text class="sig-name" x="110" y="70">Varshitha</text>
+          </svg>
+        </div>
+
+        <p class="hero-eyebrow">Student</p>
+        <h1>Hi, I’m Varshitha.</h1>
+        <p class="hero-lead">
+          I’m a B.Tech Bioinformatics student at SASTRA.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View my work</a>
+          <a href="#about" class="btn btn-ghost">More about me</a>
+          <a href="126013032.pdf" class="btn btn-ghost" target="_blank" rel="noopener">
+            Download Resume
+          </a>
+        </div>
+
+        <div class="hero-social">
+          <a href="https://www.linkedin.com/in/m-k-varshitha-50394b266/" target="_blank" rel="noopener">
+            <img src="linkedin logo.jpeg" alt="LinkedIn" width="30">
+          </a>
+          <a href="https://github.com/iamvarshitha" target="_blank" rel="noopener">
+            <img src="github logo.jpeg" alt="GitHub" width="40">
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-photo">
+        <img src="img.jpg" alt="Portrait of Varshitha" class="profile-photo">
+      </div>
+    </div>
+  </section>
+
+  <main>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="section about">
+      <div class="section-header">
+        <h2>About</h2>
+        <p>A little context about who I am and what I care about.</p>
+      </div>
+
+      <div class="section-body">
+        <p>
+          Hi, I'm Maradihalli Krishna Varshitha, a final-year B.Tech
+          Bioinformatics student at SASTRA Deemed University, with a
+          minor in Cyber Security and IoT. Why? Because biology + bits = breakthroughs
+          that save lives. Ready to hack the future? Let's dive in.
+        </p>
+        <p>
+          Outside of code and labs, I recharge with reading thought-provoking books
+          and editing creative content, always eager for opportunities
+          that push me beyond my comfort zone to contribute to meaningful digital transformations.
+        </p>
+        <p>
+          Off-script: Telugu chats over filter coffee, Hindi hustles
+          in hybrid teams, English essays that stick. Creative chaos?
+          Editing montages till dawn. Fuel? Sci-fi stacks that spark
+          wild ideas. Soft skills? Laser-listening, puzzle-crushing
+          persistence. Craving collabs that shatter comfort zones?
+          What's your plot twist? 😎
+        </p>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE / HIGHLIGHTS SECTION -->
+    <section id="experience" class="section experience">
+      <div class="section-header">
+        <h2>Experience</h2>
+      </div>
+
+      <div class="timeline">
+        <article class="timeline-item">
+          <h3>IAS Summer Research Fellow</h3>
+          <p class="timeline-meta">ICMR–RMRIMS · Patna · 2024</p>
+          <p>
+            Worked on serological diagnosis and in silico drug design for
+            Chikungunya virus, combining wet-lab diagnostics with molecular
+            docking and dynamics to propose potential inhibitors.
+          </p>
+        </article>
+
+        <article class="timeline-item">
+          <h3>Web Development Intern</h3>
+          <p class="timeline-meta">Prodigy Infotech · 2024</p>
+          <p>
+            Built responsive web pages and small applications using HTML, CSS,
+            JavaScript and APIs, focusing on clean UI, accessibility, and
+            maintainable code.
+          </p>
+        </article>
+
+        <article class="timeline-item">
+          <h3>Projects</h3>
+          <p class="timeline-meta">Self-initiated</p>
+          <p>
+            Worked on personal projects in ML, IoT, and data
+            analysis that bridge theory with real-world applications.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="section projects">
+      <div class="section-header">
+        <h2>Selected Projects</h2>
+        <p>Some things I’ve built or explored recently.</p>
+      </div>
+
+      <div class="project-grid">
+
+        <article class="project-card">
+          <h3>Netflix Movie Recommendation System</h3>
+          <p>
+            Developed a content-based recommendation system using Machine Learning on movie metadata.
+            Implemented the system in Python using Pandas, scikit-learn, and Streamlit for an interactive web interface.
+          </p>
+          <a href="https://github.com/iamvarshitha/Netflix-movie-recommend-system" class="project-link" target="_blank" rel="noopener">
+            View code on GitHub
+          </a>
+        </article>
+
+        <article class="project-card">
+          <h3>IoT Integrated Health Monitoring System Featuring Fall Detection and Environmental Sensing</h3>
+          <p>
+            Built a web dashboard for a system integrating a pulse oximeter,
+            temperature &amp; humidity sensor, and ECG sensor with ESP32, visualizing
+            real-time health parameters.
+          </p>
+          <a href="https://github.com/iamvarshitha/IoT-Integrated-Health-Monitoring-System-Featuring-Fall-Detection-and-Environmental-Sensing"
+             class="project-link" target="_blank" rel="noopener">
+            View code on GitHub
+          </a>
+        </article>
+
+        <article class="project-card">
+          <h3>EV-Battery Maintenance IoT</h3>
+          <p>
+            A simple, responsive web application that fetches and displays
+            real-time weather information using a public API, focusing on clean
+            UI and error handling.
+          </p>
+          <a href="https://github.com/iamvarshitha/EV---Battery-Maintenance-IoT"
+             class="project-link" target="_blank" rel="noopener">
+            View code on GitHub
+          </a>
+        </article>
+
+        <article class="project-card">
+          <h3>Random Arithmetic Generator (Python)</h3>
+          <p>
+            A CLI/GUI tool that generates arithmetic problems of varying
+            difficulty, designed for quick practice and testing core math skills.
+          </p>
+          <a href="https://github.com/iamvarshitha"
+             class="project-link" target="_blank" rel="noopener">
+            View code on GitHub
+          </a>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="section contact">
+      <div class="section-header">
+        <h2>Contact</h2>
+        <p>Feel free to reach out. 🙂</p>
+      </div>
+
+      <div class="contact-body">
+        <p><strong>Email:</strong> <a href="mailto:krishnavarshitha785@gmail.com">krishnavarshitha785@gmail.com</a></p>
+        <p><strong>Location:</strong> Kadapa · Andhra Pradesh · India</p>
+        <p><strong>Resume:</strong>
+          <a href="126013032.pdf" target="_blank" rel="noopener">View / Download</a>
+        </p>
+        <div class="contact-social">
+          <a href="https://www.linkedin.com/in/m-k-varshitha-50394b266/" target="_blank" rel="noopener">
+            <img src="linkedin logo.jpeg" alt="LinkedIn" width="30">
+          </a>
+          <a href="https://github.com/iamvarshitha" target="_blank" rel="noopener">
+            <img src="github logo.jpeg" alt="GitHub" width="40">
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Varshitha. All rights reserved.</p>
+  </footer>
+
+  <script>
+    // simple script to keep year updated
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
